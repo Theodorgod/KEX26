@@ -1,0 +1,14 @@
+DATA_PATH = "test/moorea_2019-01-30_000_td_671500000_731500000_td.dat"
+
+WIDTH = 320
+HEIGHT = 180
+
+TIME_BINS = 5
+
+DELTA_T = 200000
+
+BATCH_SIZE = 8
+EPOCHS = 10
+LR = 1e-3
+
+DEVICE = "cuda"
