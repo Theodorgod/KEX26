@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "amp_enabled": false,
+  "preprocessing": "event_frame",
+  "in_channels": 1,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 50,
+  "epochs_ran": 17,
+  "stopped_early": true,
+  "best_epoch": 7,
+  "best_val_loss": 1.1027380764484405,
+  "output": "artifacts\\model_event_frame_final.pth",
+  "best_output": "artifacts\\model_event_frame_best.pth",
+  "history_file": "artifacts\\history_event_frame.csv",
+  "plot_file": "artifacts\\curves_event_frame.png"
+}

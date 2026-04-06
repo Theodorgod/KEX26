@@ -1,0 +1,30 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "tbr",
+  "in_channels": 1,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 80,
+  "epochs_ran": 17,
+  "stopped_early": true,
+  "best_epoch": 2,
+  "best_val_loss": 1.0922121047973632,
+  "best_val_acc": 0.39375,
+  "selection_metric": "val_acc",
+  "best_metric_value": 0.39375,
+  "model_feature_dims": [
+    64,
+    128,
+    256
+  ],
+  "model_blocks_per_stage": 2,
+  "window_mode": "bbox",
+  "active_slice_stride_us": 100000,
+  "active_slice_top_k": 1,
+  "output": "artifacts\\model_bbox_rescap_final.pth",
+  "best_output": "artifacts\\model_bbox_rescap_best.pth",
+  "history_file": "artifacts\\history_bbox_rescap.csv",
+  "plot_file": "artifacts\\curves_bbox_rescap.png"
+}

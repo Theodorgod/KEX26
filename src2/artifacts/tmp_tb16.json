@@ -1,0 +1,18 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "time_bins",
+  "in_channels": 4,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 5,
+  "epochs_ran": 5,
+  "stopped_early": false,
+  "best_epoch": 2,
+  "best_val_loss": 1.0985915660858154,
+  "output": "artifacts\\tmp_tb16_final.pth",
+  "best_output": "artifacts\\tmp_tb16_best.pth",
+  "history_file": "artifacts\\tmp_tb16.csv",
+  "plot_file": "artifacts\\tmp_tb16.png"
+}

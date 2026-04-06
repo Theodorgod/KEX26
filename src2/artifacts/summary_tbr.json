@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "amp_enabled": false,
+  "preprocessing": "tbr",
+  "in_channels": 1,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 50,
+  "epochs_ran": 7,
+  "stopped_early": true,
+  "best_epoch": 1,
+  "best_val_loss": 1.0989819765090942,
+  "output": "artifacts\\model_tbr_final.pth",
+  "best_output": "artifacts\\model_tbr_best.pth",
+  "history_file": "artifacts\\history_tbr.csv",
+  "plot_file": "artifacts\\curves_tbr.png"
+}

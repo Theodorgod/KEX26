@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "amp_enabled": false,
+  "train_samples": 64,
+  "val_samples": 64,
+  "epochs_requested": 3,
+  "epochs_ran": 3,
+  "stopped_early": true,
+  "best_epoch": 1,
+  "best_val_loss": 20.537020981211747,
+  "output": "artifacts\\model_reg_final.pth",
+  "best_output": "artifacts\\model_reg_best.pth",
+  "history_file": "artifacts\\history_reg.csv",
+  "plot_file": "artifacts\\curves_reg.png"
+}

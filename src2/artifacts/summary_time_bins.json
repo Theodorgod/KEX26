@@ -1,0 +1,18 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "tbr",
+  "in_channels": 1,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 50,
+  "epochs_ran": 7,
+  "stopped_early": true,
+  "best_epoch": 1,
+  "best_val_loss": 1.0984397888183595,
+  "output": "artifacts\\model_time_bins_final.pth",
+  "best_output": "artifacts\\model_time_bins_best.pth",
+  "history_file": "artifacts\\history_time_bins.csv",
+  "plot_file": "artifacts\\curves_time_bins.png"
+}

@@ -1,0 +1,18 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "time_bins",
+  "in_channels": 8,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 5,
+  "epochs_ran": 5,
+  "stopped_early": false,
+  "best_epoch": 1,
+  "best_val_loss": 1.0930117845535279,
+  "output": "artifacts\\tmp_bbox_tb8_final.pth",
+  "best_output": "artifacts\\tmp_bbox_tb8_best.pth",
+  "history_file": "artifacts\\tmp_bbox_tb8.csv",
+  "plot_file": "artifacts\\tmp_bbox_tb8.png"
+}

@@ -1,0 +1,21 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "time_bins",
+  "in_channels": 8,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 80,
+  "epochs_ran": 73,
+  "stopped_early": true,
+  "best_epoch": 58,
+  "best_val_loss": 1.0192855715751648,
+  "best_val_acc": 0.54375,
+  "selection_metric": "val_acc",
+  "best_metric_value": 0.54375,
+  "output": "artifacts\\model_bbox_tb8_jitter_final.pth",
+  "best_output": "artifacts\\model_bbox_tb8_jitter_best.pth",
+  "history_file": "artifacts\\history_bbox_tb8_jitter.csv",
+  "plot_file": "artifacts\\curves_bbox_tb8_jitter.png"
+}

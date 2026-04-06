@@ -1,0 +1,18 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "time_bins",
+  "in_channels": 4,
+  "num_classes": 3,
+  "train_samples": 753,
+  "val_samples": 160,
+  "epochs_requested": 2,
+  "epochs_ran": 2,
+  "stopped_early": false,
+  "best_epoch": 2,
+  "best_val_loss": 1.1003060579299926,
+  "output": "model.pth",
+  "best_output": "model_best.pth",
+  "history_file": "training_history.csv",
+  "plot_file": "training_curves.png"
+}

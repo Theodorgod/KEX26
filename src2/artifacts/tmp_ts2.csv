@@ -1,0 +1,2 @@
+epoch,train_loss,val_loss,val_acc,lr,epoch_seconds,is_best,no_improve_count
+1,1.3401470184326172,1.072756141424179,0.40625,0.001,10.521384499967098,1,0

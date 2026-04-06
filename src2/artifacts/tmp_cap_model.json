@@ -1,0 +1,30 @@
+{
+  "device": "cuda",
+  "amp_enabled": true,
+  "preprocessing": "time_bins",
+  "in_channels": 8,
+  "num_classes": 3,
+  "train_samples": 64,
+  "val_samples": 32,
+  "epochs_requested": 1,
+  "epochs_ran": 1,
+  "stopped_early": false,
+  "best_epoch": 1,
+  "best_val_loss": 1.1593512296676636,
+  "best_val_acc": 0.28125,
+  "selection_metric": "val_loss",
+  "best_metric_value": 1.1593512296676636,
+  "model_feature_dims": [
+    64,
+    128,
+    256
+  ],
+  "model_blocks_per_stage": 2,
+  "window_mode": "bbox",
+  "active_slice_stride_us": 100000,
+  "active_slice_top_k": 1,
+  "output": "artifacts\\tmp_cap_model_final.pth",
+  "best_output": "artifacts\\tmp_cap_model_best.pth",
+  "history_file": "artifacts\\tmp_cap_model.csv",
+  "plot_file": "artifacts\\tmp_cap_model.png"
+}
